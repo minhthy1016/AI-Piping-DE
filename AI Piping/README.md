@@ -25,8 +25,8 @@ Define data models for Lead and Persona using Beanie in file ```server\model\dat
 This will modify data schema of table Lead and table Persona in your local MongoDB. 
 
 ## MongoDB Configuration
-Local MongoDB: Ensure MongoDB is running locally.
-MongoDB Atlas: If using MongoDB Atlas, ensure you have the connection string.
+- Local MongoDB: Ensure MongoDB is running locally.
+- MongoDB Atlas: If using MongoDB Atlas, ensure you have the connection string.
 Run app :
 
 ```bash
