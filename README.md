@@ -9,12 +9,12 @@ You are given the following information
 database will be done in python using beanie library
 ```bash
 class Lead(Document):
-id: str = Field(default_factory=lambda: uuid4().hex)
-status: int = 0
-first_name: Optional[str] = None
-last_name: Optional[str] = None
-email: Optional[str] = None
-photo_url: Optional[str] = None
+  id: str = Field(default_factory=lambda: uuid4().hex)
+  status: int = 0
+  first_name: Optional[str] = None
+  last_name: Optional[str] = None
+  email: Optional[str] = None
+  photo_url: Optional[str] = None
 ```
 - [api] An api endpoint get_linkedin_data(email:str) provides you with a json output given
 a prospect email address as input. Sometimes the data value is
