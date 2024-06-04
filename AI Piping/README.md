@@ -2,13 +2,6 @@
 
 This project demonstrates how to use Beanie and Mongomock to access MongoDB, handling Lead and Persona data.
 
-## Table of Contents
-
-1. [Setup](#setup)
-2. [Beanie Model Definitions](#beanie-model-definitions)
-3. [CRUD Operations](#crud-operations)
-4. [Testing with Mongomock](#testing-with-mongomock)
-
 ## Setup
 
 ### Prerequisites
