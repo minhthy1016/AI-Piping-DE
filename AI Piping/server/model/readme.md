@@ -10,7 +10,7 @@ python transform.py
 All the output records will be stored in AWS S3. We will use SQS and AWS Lambda function to get notification and file transformed whenever files received. 
 
 ## Get Event Notification by SQS, Lambda and write to AWS S3 bucket 
-There are 3 steps: 
+There are 4 steps: 
 - We have Lead, Persona and transformed csv data written to a landing S3 bucket, named ```dev-data-external-land-ap-southeast-1 ```
 - Create Event Notification in the landing S3 bucket in order to receive message from SQS whenever new event written to the S3. 
 - Create another targeting S3 bucket, named ```dev-data-external-target-ap-southeast-1 ``` 
