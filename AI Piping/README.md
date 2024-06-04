@@ -14,7 +14,7 @@ This project demonstrates how to use Beanie and Mongomock to access MongoDB, han
 pip install -r requirements.txt
 ```
 ## Beanie Model Definitions
-Define data models for Lead and Persona using Beanie in file ```server\model\data.py``` 
+Define data models for Lead and Persona using Beanie in file ```server/model/data.py``` 
 This will modify data schema of table Lead and table Persona in your local MongoDB. 
 
 ## MongoDB Configuration
