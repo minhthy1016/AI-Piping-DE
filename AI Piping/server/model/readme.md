@@ -90,9 +90,9 @@ The Policies JSON should look like this :
             ],
             "Resource": [
                 "arn:aws:s3:::arn:aws:s3:::dev-data-external-land-ap-southeast-1",
-                "arn:aws:s3:::arn:aws:s3:::dev-data-external-land-ap-southeast-1/data_competitor/*",
+                "arn:aws:s3:::arn:aws:s3:::dev-data-external-land-ap-southeast-1/data/*",
                 "arn:aws:s3:::dev-data-external-target-ap-southeast-1",
-                "arn:aws:s3:::dev-data-external-target-ap-southeast-1/data_competitor/*"
+                "arn:aws:s3:::dev-data-external-target-ap-southeast-1/data/*"
             ],
             "Effect": "Allow",
             "Sid": "WriteAccessForS3"
