@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file
-folder_path = 'AI Piping\'
+folder_path = 'AI Piping/'
 file_path = folder_path +'field_of_study_exercise.csv'
 
 class CSVHandler:
