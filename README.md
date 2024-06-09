@@ -73,3 +73,4 @@ We will evaluate based on the following criteria
 - Beanie Documentation
 - MongoDB website
 - https://github.com/mongomock/mongomock
+- Python MongoDB Tutorial : https://www.geeksforgeeks.org/python-mongodb-tutorial/?ref=lbp
